@@ -45,10 +45,7 @@ Pintree 是一个开源项目，旨在将浏览器书签导出成导航网站。
 
 ---
 
-通过以上步骤，您已经成功完成了 Pintree 项目的安装和运行。如果有任何问题，可以加群获取更多帮助，也可以添加我的微信: ```Gift_wei``` 我拉你进交流群
-
-![](https://github.com/Pintree-io/pintree/blob/main/assets/wechat_group.png)
-
+通过以上步骤，您已经成功完成了 Pintree 项目的安装和运行。
 ## 使用技术
 
 - HTML/CSS/JavaScript
@@ -71,7 +68,6 @@ Pintree 是一个开源项目，旨在将浏览器书签导出成导航网站。
 
 如有任何问题或建议，请通过以下方式联系我们：
 - 项目网站: [Pintree](https://pintree.io/)
-- Email: viggo.zw@gmail.com
-- 微信：```Gift_wei```
+
 
 感谢使用和支持！
