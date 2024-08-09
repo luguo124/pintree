@@ -11,13 +11,13 @@
         "icon": "https://img.soogif.com/AS87sFkGjr42mEQOqMnLHZthPALo2Rxa.gif",
         "url": "https://njlhlf.axshare.com/#id=c64ln7&p=%E9%A1%B9%E7%9B%AE%E4%BF%A1%E6%81%AF&g=1"
       },
-          {
-            "type": "link",
-            "addDate": 1723100463256,
-            "title": "安全管理UI",
-            "icon": "https://logo.clearbit.com/lanhuapp.com",
-            "url": "https://lanhuapp.com/web/#/item/project/stage?pid=8e56e409-503f-4555-bd55-dc6efa174258&tid=a83ec336-ebb9-4fe1-9e29-b36a7276eaf7&see=all&corpId=null"
-          },
+      {
+        "type": "link",
+        "addDate": 1723100463256,
+        "title": "安全管理UI",
+        "icon": "https://logo.clearbit.com/lanhuapp.com",
+        "url": "https://lanhuapp.com/web/#/item/project/stage?pid=8e56e409-503f-4555-bd55-dc6efa174258&tid=a83ec336-ebb9-4fe1-9e29-b36a7276eaf7&see=all&corpId=null"
+      }
     ]
   }
 ]
