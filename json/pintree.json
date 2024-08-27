@@ -31,7 +31,22 @@
         "title": "排期表",
         "icon": "http://img.soogif.com/dqhdPWp9NMDT0QmZXgpbeZvPB7BZMeND.gif",
         "url": "https://docs.qq.com/sheet/DY3Fta3dTZWppak9j?tab=BB08J2"
-      }
+      },
+      {
+        "type": "link",
+        "addDate": 1724719863191,
+        "title": "设备类型字典.xls",
+        "icon": "https://logo.clearbit.com/docs.qq.com",
+        "url": "https://docs.qq.com/sheet/DY0NHYWxSaU5iRkVK?tab=000001&_bid=1&client=drive_file"
+     },
+     {
+        "type": "link",
+        "addDate": 1724720030192,
+        "title": "点位模板.xlsx",
+        "icon": "https://logo.clearbit.com/docs.qq.com",
+            "url": "https://docs.qq.com/sheet/DY3hocllIdGpabk1Q?tab=000001&_bid=1&client=drive_file"
+     }
+
     ]
   }
 ]
