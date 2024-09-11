@@ -38,22 +38,40 @@
         "title": "设备类型字典.xls",
         "icon": "https://gd-hbimg.huaban.com/80df091bee045f7165476f5414ca775c61de8c7743c6-9H3kh3_fw1200webp",
         "url": "https://docs.qq.com/sheet/DY0NHYWxSaU5iRkVK?tab=000001&_bid=1&client=drive_file"
-     },
-     {
+      },
+      {
         "type": "link",
         "addDate": 1724720030192,
         "title": "点位模板.xlsx",
         "icon": "https://gd-hbimg.huaban.com/80df091bee045f7165476f5414ca775c61de8c7743c6-9H3kh3_fw1200webp",
-            "url": "https://docs.qq.com/sheet/DY3hocllIdGpabk1Q?tab=000001&_bid=1&client=drive_file"
-     },
-     {
-       "type": "link",
-       "addDate": 1725843669615,
-       "title": "测试问题表",
-       "icon": "https://gd-hbimg.huaban.com/cfffb13cf92ee87d6d4c4ae562428e60028f574d1558-KJ4u3I",
-       "url": "https://docs.qq.com/smartsheet/DY1FtdVBBb2tMcE1H?tab=BB08J2&viewId=vUQPXH"
-    }
-
+        "url": "https://docs.qq.com/sheet/DY3hocllIdGpabk1Q?tab=000001&_bid=1&client=drive_file"
+      },
+      {
+        "type": "link",
+        "addDate": 1725843669615,
+        "title": "测试问题表",
+        "icon": "https://gd-hbimg.huaban.com/cfffb13cf92ee87d6d4c4ae562428e60028f574d1558-KJ4u3I",
+        "url": "https://docs.qq.com/smartsheet/DY1FtdVBBb2tMcE1H?tab=BB08J2&viewId=vUQPXH"
+      }
+    ]
+    "type": "folder",
+    "addDate": 1722400605292,
+    "title": "点餐机",
+    "children": [
+      {
+        "type": "link",
+        "addDate": 1726015235257,
+        "title": "原型方案",
+        "icon": "https://img.soogif.com/AS87sFkGjr42mEQOqMnLHZthPALo2Rxa.gif",
+        "url": "https://la53yd.axshare.com/"
+      },
+      {
+        "type": "link",
+        "addDate": 1726015603584,
+        "title": "点餐功能-排期表",
+        "icon": "http://img.soogif.com/dqhdPWp9NMDT0QmZXgpbeZvPB7BZMeND.gif",
+        "url": "https://docs.qq.com/sheet/DY29OWUtlU3h6WVNw?tab=BB08J2"
+      }
     ]
   }
 ]
