@@ -80,7 +80,14 @@
         "title": "需求文档（点餐机）",
         "icon": "https://gd-hbimg.huaban.com/83057eb04e27b680e8bd791baf3196f0e83339ad52002-E2ONlA_fw1200",
         "url": "https://docs.qq.com/document/DY3ZzeHpvVnNvUWN1"
-          }
+      },
+      {
+        "type": "link",
+        "addDate": 1726706530414,
+        "title": "点餐机-蓝湖",
+        "icon": "https://logo.clearbit.com/lanhuapp.com",
+        "url": "https://lanhuapp.com/web/#/item/project/stage?pid=2dce19dc-7bf8-4075-9f12-672fa8892383&tid=a83ec336-ebb9-4fe1-9e29-b36a7276eaf7&see=all&corpId=null"
+      }
     ]
   }
 ]
