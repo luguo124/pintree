@@ -1,14 +1,4 @@
 [
-  {
-    "type": "folder",
-    "addDate": 1651289225190,
-    "title": "书签栏",
-    "children": [
-      {
-        "type": "folder",
-        "addDate": 1727249959978,
-        "title": "Pintree",
-        "children": [
           {
             "type": "folder",
             "addDate": 1727249994183,
@@ -115,7 +105,3 @@
             ]
           }
         ]
-      }
-    ]
-  }
-]
