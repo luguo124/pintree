@@ -587,7 +587,7 @@
         const linkSection = document.createElement('div');
         linkSection.className = 'grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-6';
         links.forEach(link => {
-          const card = createCard(link.title, link.url, link.icon);
+          const card = createCard(link.title, link.url <!--,link.icon -->);
           linkSection.appendChild(card);
         });
         container.appendChild(linkSection);
