@@ -331,16 +331,6 @@
       card.className = 'cursor-pointer flex items-center hover:shadow-sm transition-shadow p-4 bg-white shadow-sm ring-1 ring-gray-900/5 dark:pintree-ring-gray-800 rounded-lg hover:bg-gray-100 dark:pintree-bg-gray-900 dark:hover:pintree-bg-gray-800';
       card.onclick = () => window.open(url, '_blank'); // Make the whole card clickable
 
-      // const cardIcon = document.createElement('img');
-      // cardIcon.src = icon || 'assets/default-icon.svg'; // Use provided icon or default icon
-      // cardIcon.alt = title;
-      // cardIcon.className = 'w-8 h-8 mr-4 rounded-full flex-shrink-0 card-icon-bg'; // Smaller size and rounded
-
-      // // Check if the image URL returns 404 and replace it with the default icon if it does
-      // cardIcon.onerror = () => {
-      //   cardIcon.src = 'assets/default-icon.svg';
-      // };
-
       const cardContent = document.createElement('div');
       cardContent.className = 'flex flex-col overflow-hidden'; // Ensure the content is hidden if too long
 
@@ -358,7 +348,6 @@
       cardContent.appendChild(cardTitle);
       cardContent.appendChild(cardUrl); // Add URL paragraph
 
-      card.appendChild(cardIcon);
       card.appendChild(cardContent);
 
       return card;
