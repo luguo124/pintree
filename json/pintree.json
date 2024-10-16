@@ -1,4 +1,4 @@
-[
+ [
       {
         "type": "folder",
         "addDate": 1727249959978,
@@ -57,6 +57,13 @@
                 "title": "产品走查（安全）",
                 "icon": "https://logo.clearbit.com/docs.qq.com",
                 "url": "https://docs.qq.com/smartsheet/DY1FtdVBBb2tMcE1H?tab=BB08J2&viewId=vUQPXH"
+              },
+              {
+                "type": "link",
+                "addDate": 1729063128907,
+                "title": "操作手册（安全管理）",
+                "icon": "https://logo.clearbit.com/i9mt6pdebn.feishu.cn",
+                "url": "https://i9mt6pdebn.feishu.cn/docx/IHasdsk9gomrixxyPSHcBHBtnSg?from=from_copylink"
               }
             ]
           },
