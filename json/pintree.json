@@ -19,7 +19,7 @@
               {
                 "type": "link",
                 "addDate": 1727255616606,
-                "title": "需求文档（安全V1.0）",
+                "title": "需求文档（安全V2.0）",
                 "icon": "https://logo.clearbit.com/i9mt6pdebn.feishu.cn",
                 "url": "https://i9mt6pdebn.feishu.cn/docx/XOGhdAnnkozg7Yx8pavcgx4Gnsb?from=from_copylink"
               },
@@ -68,21 +68,28 @@
               {
                 "type": "folder",
                 "addDate": 1730351051648,
-                "title": "V1.1需求",
+                "title": "V2.1需求",
                 "children": [
                   {
                     "type": "link",
                     "addDate": 1730351057136,
-                    "title": "V1.1原型",
+                    "title": "V2.1原型",
                     "icon": "https://logo.clearbit.com/9l5otg.axshare.com",
                     "url": "https://9l5otg.axshare.com/"
                   },
                   {
                     "type": "link",
                     "addDate": 1730352835107,
-                    "title": "V1.1-安全管理排期表",
+                    "title": "V2.1-安全管理排期表",
                     "icon": "https://logo.clearbit.com/docs.qq.com",
                     "url": "https://docs.qq.com/sheet/DY0VxamVscXpKZ2h6?tab=BB08J2VxamVscXpKZ2h6?tab=BB08J2"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1730705853481,
+                    "title": "需求文档（V2.1)",
+                    "icon": "https://logo.clearbit.com/i9mt6pdebn.feishu.cn",
+                    "url": "https://i9mt6pdebn.feishu.cn/docx/CiNdddBTVoxDibxNxG7ctc8vnTg?from=from_copylink"
                   }
                 ]
               }
