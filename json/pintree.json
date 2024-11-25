@@ -157,6 +157,27 @@
                 "url": "https://i9mt6pdebn.feishu.cn/docx/EdZTd3m8bonSlkxsNFRcU2JrnxH?from=from_copylink"
               }
             ]
+          },
+          {
+            "type": "folder",
+            "addDate": 1732516017372,
+            "title": "物联网",
+            "children": [
+              {
+                "type": "link",
+                "addDate": 1732516024809,
+                "title": "物联网原型（1-2期）",
+                "icon": "https://logo.clearbit.com/t8kzz2.axshare.com",
+                "url": "https://t8kzz2.axshare.com/#id=ql0fpr&p=%E6%B7%BB%E5%8A%A0%E4%BA%A7%E5%93%81%EF%BC%88%E5%9E%8B%E5%8F%B7%EF%BC%89&g=1"
+              },
+              {
+                "type": "link",
+                "addDate": 1732516282949,
+                "title": "物联网新设备.xlsx",
+                "icon": "https://logo.clearbit.com/docs.qq.com",
+                "url": "https://docs.qq.com/sheet/DY2RvQ0doV1pZT3Zv?tab=000001&_bid=1&client=drive_file"
+              }
+            ]
           }
         ]
       }
