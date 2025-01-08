@@ -218,6 +218,20 @@
                 "title": "物联网新设备.xlsx",
                 "icon": "https://logo.clearbit.com/docs.qq.com",
                 "url": "https://docs.qq.com/sheet/DY2RvQ0doV1pZT3Zv?tab=000001&_bid=1&client=drive_file"
+              },
+              {
+                "type": "folder",
+                "addDate": 1736326391792,
+                "title": "物联网V2.0需求",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1736326404686,
+                    "title": "迭代V2.0原型",
+                    "icon": "https://logo.clearbit.com/3si32i.axshare.com",
+                    "url": "https://3si32i.axshare.com/#g=1&id=9rlktc&p=%E9%9C%80%E6%B1%82%E8%AF%B4%E6%98%8E"
+                  }
+                ]
               }
             ]
           }
