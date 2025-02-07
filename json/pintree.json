@@ -1,4 +1,4 @@
- [
+[
       {
         "type": "folder",
         "addDate": 1727249959978,
@@ -244,6 +244,13 @@
                     "title": "迭代V2.0原型",
                     "icon": "https://logo.clearbit.com/3si32i.axshare.com",
                     "url": "https://3si32i.axshare.com/#g=1&id=9rlktc&p=%E9%9C%80%E6%B1%82%E8%AF%B4%E6%98%8E"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1738890485089,
+                    "title": "需求文档（物联网平台v2.0）",
+                    "icon": "https://logo.clearbit.com/i9mt6pdebn.feishu.cn",
+                    "url": "https://i9mt6pdebn.feishu.cn/docx/T2mFdR3THoik5gxy9Yhcek2lnSC"
                   }
                 ]
               }
