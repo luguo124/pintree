@@ -337,6 +337,7 @@
       const cardTitle = document.createElement('h2');
       cardTitle.className = 'text-sm font-medium mb-1 truncate dark:text-gray-400';
       cardTitle.innerText = title;
+      cardTitle.title = title; // 添加title属性显示完整标题
 
       // Clean URL by removing http(s) and trailing slash
       const cleanUrl = url.replace(/^https?:\/\//, '').replace(/\/$/, '');
@@ -344,6 +345,7 @@
       const cardUrl = document.createElement('p');
       cardUrl.className = 'text-xs text-gray-400 dark:text-gray-600 dark:hover:text-gray-400 truncate';
       cardUrl.innerText = cleanUrl; // Use cleaned URL
+      cardUrl.title = url; // 添加title属性显示完整URL
 
       cardContent.appendChild(cardTitle);
       cardContent.appendChild(cardUrl); // Add URL paragraph
@@ -392,6 +394,7 @@
         if (folder.type === 'folder') {
           const navItem = document.createElement('li');
           navItem.className = 'items-center group flex justify-between gap-x-3 rounded-md p-2 text-gray-700 dark:text-gray-400 hover:text-main-500 hover:bg-gray-50 dark:hover:pintree-bg-gray-800 bg-opacity-50';
+          navItem.setAttribute('data-title', folder.title);
 
           const navLinkContainer = document.createElement('div');
           navLinkContainer.className = 'flex items-center space-x-2 truncate';
@@ -402,6 +405,7 @@
           const navLink = document.createElement('a');
           navLink.className = 'flex text-sm leading-6 font-semibold dark:text-gray-400';
           navLink.innerText = folder.title;
+          navLink.title = folder.title;
 
           navLinkContainer.appendChild(folderIcon);
           navLinkContainer.appendChild(navLink);
@@ -455,13 +459,17 @@
       const breadcrumbsPath = document.getElementById('breadcrumbs-path');
       breadcrumbsPath.innerHTML = ''; // Clear previous breadcrumbs
 
-      path.forEach((item, index) => {
+      // 从 Pintree 开始显示面包屑
+      const startIndex = path.findIndex(item => item.title === 'Pintree');
+      const displayPath = startIndex !== -1 ? path.slice(startIndex) : path;
+
+      displayPath.forEach((item, index) => {
         const breadcrumb = document.createElement('span');
         breadcrumb.className = 'cursor-pointer hover:underline';
         breadcrumb.innerText = item.title;
         breadcrumb.onclick = () => {
           // Render bookmarks for the selected breadcrumb
-          const newPath = path.slice(0, index + 1);
+          const newPath = path.slice(0, path.indexOf(item) + 1);
           renderBookmarks(item.children, newPath);
           updateSidebarActiveState(newPath); // Update sidebar active state
           document.getElementById('clearSearchButton').classList.add('hidden'); // Hide clear button when navigating through breadcrumbs
@@ -469,7 +477,7 @@
 
         breadcrumbsPath.appendChild(breadcrumb);
 
-        if (index < path.length - 1) {
+        if (index < displayPath.length - 1) {
           const separator = document.createElement('span');
           separator.innerText = ' > ';
           breadcrumbsPath.appendChild(separator);
@@ -590,19 +598,14 @@
     fetch('json/pintree.json')
       .then(response => response.json())
       .then(data => {
-        // Use the first layer of the data directly
-        const firstLayer = data;
-        // Render navigation using the first layer of data
-        renderNavigation(firstLayer, document.getElementById('navigation'), true);
-        // Render bookmarks using the first layer of data, starting from the Bookmark
-        renderBookmarks(firstLayer, [{ title: 'Bookmark', children: firstLayer }]);
-
-        // Automatically select and show the first item
-        if (firstLayer.length > 0) {
-          const firstItem = firstLayer[0];
-          updateSidebarActiveState([{ title: firstItem.title, children: firstItem.children }]);
-          renderBookmarks(firstItem.children, [{ title: 'Bookmark', children: firstLayer }, { title: firstItem.title, children: firstItem.children }]);
-        }
+        // 直接从 Pintree 层级开始显示
+        const pintreeLayer = data[0].children[0].children;
+        // 渲染导航，使用 Pintree 层级的数据
+        renderNavigation(pintreeLayer, document.getElementById('navigation'), true);
+        // 渲染书签内容，直接显示 Pintree 层级
+        const pintreePath = [{ title: 'Pintree', children: pintreeLayer }];
+        renderBookmarks(pintreeLayer, pintreePath);
+        updateSidebarActiveState(pintreePath);
       })
       .catch(error => console.error('Error loading bookmarks:', error));
 
@@ -656,19 +659,11 @@
           // Hide loading spinner
           document.getElementById('loading-spinner').style.display = 'none';
 
-          // Use the first layer of the data directly
-          const firstLayer = data;
-          // Render navigation using the first layer of data
-          renderNavigation(firstLayer, document.getElementById('navigation'), true);
-          // Render bookmarks using the first layer of data, starting from the Bookmark
-          renderBookmarks(firstLayer, [{ title: 'Bookmark', children: firstLayer }]);
-
-          // Automatically select and show the first item
-          if (firstLayer.length > 0) {
-            const firstItem = firstLayer[0];
-            updateSidebarActiveState([{ title: firstItem.title, children: firstItem.children }]);
-            renderBookmarks(firstItem.children, [{ title: 'Bookmark', children: firstLayer }, { title: firstItem.title, children: firstItem.children }]);
-          }
+          // 从书签栏开始，包含 Pintree 层级
+          const bookmarkBar = data[0];
+          const pintreeLayer = bookmarkBar.children[0];
+          // 渲染导航，使用完整的层级数据
+          renderNavigation([pintreeLayer], document.getElementById('navigation'), true);
         })
         .catch(error => {
           console.error('Error loading bookmarks:', error);
