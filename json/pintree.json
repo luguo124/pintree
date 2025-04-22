@@ -165,6 +165,20 @@
                     "title": "安全运营服务V2.3 原型",
                     "icon": "https://logo.clearbit.com/litao2.eu.org",
                     "url": "https://litao2.eu.org/aqyy2.3/#id=tlp0op&p=%E6%B6%88%E6%81%AF%E4%B8%AD%E5%BF%83&g=1"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1745285755187,
+                    "title": "RustDesk 自建服务器部署和使用教程 - 知乎",
+                    "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                    "url": "https://zhuanlan.zhihu.com/p/697140449"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1745287008510,
+                    "title": "开源内网穿透工具 frp 安装和使用教程 - 知乎",
+                    "icon": "https://logo.clearbit.com/zhuanlan.zhihu.com",
+                    "url": "https://zhuanlan.zhihu.com/p/713245999"
                   }
                 ]
               }
@@ -269,7 +283,7 @@
                     "addDate": 1740535841217,
                     "title": "物联网新增设备（原型）",
                     "icon": "https://logo.clearbit.com/gt.litao1.eu.org",
-                    "url": "https://gt.litao1.eu.org/wlwxz/#id=null&g=1"
+                    "url": "https://gt.litao1.eu.org/wlwxz/"
                   }
                 ]
               },
@@ -283,7 +297,7 @@
                     "addDate": 1736326404686,
                     "title": "迭代V2.0原型",
                     "icon": "https://logo.clearbit.com/gt.litao1.eu.org",
-                    "url": "https://gt.litao1.eu.org/wlw/#id=null&g=1"
+                    "url": "https://gt.litao1.eu.org/wlw/"
                   },
                   {
                     "type": "link",
