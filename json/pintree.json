@@ -349,6 +349,20 @@
                 "title": "居家养老服务（用户手册）",
                 "icon": "https://logo.clearbit.com/i9mt6pdebn.feishu.cn",
                 "url": "https://i9mt6pdebn.feishu.cn/docx/MMg4dHjAporjRcxQDG8cbIJDnQb"
+              },
+              {
+                "type": "folder",
+                "addDate": 1748238787956,
+                "title": "V1.1需求",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1748238772519,
+                    "title": "",
+                    "icon": "https://logo.clearbit.com/gt.litao1.eu.org",
+                    "url": "https://gt.litao1.eu.org/jjfu1.1/#&g=1"
+                  }
+                ]
               }
             ]
           }
