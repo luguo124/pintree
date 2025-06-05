@@ -365,6 +365,20 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "folder",
+            "addDate": 1749104657850,
+            "title": "项目实施",
+            "children": [
+              {
+                "type": "link",
+                "addDate": 1749104603543,
+                "title": "项目看板（H5）",
+                "icon": "https://logo.clearbit.com/gt.litao1.eu.org",
+                "url": "https://gt.litao1.eu.org/xmkb/"
+              }
+            ]
           }
         ]
       }
