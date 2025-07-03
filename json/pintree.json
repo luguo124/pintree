@@ -377,6 +377,20 @@
                     "url": "https://gt.litao1.eu.org/jjfw1.1/#&g=1"
                   }
                 ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1751532325742,
+                "title": "V1.2需求",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1751532293396,
+                    "title": "gt.litao1.eu.org/jjfw1.2/#&g=1",
+                    "icon": "https://logo.clearbit.com/gt.litao1.eu.org",
+                    "url": "https://gt.litao1.eu.org/jjfw1.2/#&g=1"
+                  }
+                ]
               }
             ]
           },
