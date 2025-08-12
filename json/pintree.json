@@ -435,6 +435,20 @@
                 "url": "https://gt.litao1.eu.org/ui/xmkb"
               }
             ]
+          },
+          {
+            "type": "folder",
+            "addDate": 1754982942404,
+            "title": "石景山养老服务平台",
+            "children": [
+              {
+                "type": "link",
+                "addDate": 1754982869241,
+                "title": "石景山养老服务平台",
+                "icon": "https://logo.clearbit.com/gt.litao1.eu.org",
+                "url": "https://gt.litao1.eu.org/sjsylfwpt/#&g=1"
+              }
+            ]
           }
         ]
       }
