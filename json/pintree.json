@@ -1,7 +1,7 @@
 [
   {
     "type": "folder",
-    "addDate": 1651289225190,
+    "addDate": 1760617312754,
     "title": "书签栏",
     "children": [
       {
@@ -209,6 +209,13 @@
                 "title": "数字孪生",
                 "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
                 "url": "https://gt2.litao1.eu.org/szls/#&g=1"
+              },
+              {
+                "type": "link",
+                "addDate": 1764581043064,
+                "title": "UI设计 - 数字孪生",
+                "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
+                "url": "https://gt2.litao1.eu.org/ui/szlsui/"
               }
             ]
           },
