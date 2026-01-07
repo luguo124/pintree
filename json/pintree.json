@@ -216,6 +216,20 @@
                 "title": "UI设计 - 数字孪生",
                 "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
                 "url": "https://gt2.litao1.eu.org/ui/szlsui/"
+              },
+              {
+                "type": "folder",
+                "addDate": 1767773177129,
+                "title": "V2.4迭代需求",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1767773495715,
+                    "title": "安全运营V2.4（迭代）",
+                    "icon": "https://logo.clearbit.com/gt.litao1.eu.org",
+                    "url": "https://gt.litao1.eu.org/aqyy2.4/#&g=1"
+                  }
+                ]
               }
             ]
           },
