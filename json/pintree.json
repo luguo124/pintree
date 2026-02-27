@@ -230,6 +230,20 @@
                     "url": "https://gt2.litao1.eu.org/aqyy2.4/#&g=1"
                   }
                 ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1772178237655,
+                "title": "V2.5（巡检）",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1772178280624,
+                    "title": "安全运营2.5（巡检）",
+                    "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
+                    "url": "https://gt2.litao1.eu.org/aqyy2.5/#&g=1"
+                  }
+                ]
               }
             ]
           },
