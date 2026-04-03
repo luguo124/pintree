@@ -547,6 +547,20 @@
                 "url": "https://gt.litao1.eu.org/sjsylfwpt/#&g=1"
               }
             ]
+          },
+          {
+            "type": "folder",
+            "addDate": 1775204661931,
+            "title": "其他资料",
+            "children": [
+              {
+                "type": "link",
+                "addDate": 1775204708981,
+                "title": "物联网设备接口文档",
+                "icon": "https://logo.clearbit.com/my.feishu.cn",
+                "url": "https://my.feishu.cn/drive/folder/O6wDfkYVrl2noQdmEnBcdJ3znWd?from=from_copylink"
+              }
+            ]
           }
         ]
       }
