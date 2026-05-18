@@ -510,6 +510,20 @@
                     "url": "https://gt2.litao1.eu.org/jjyl2.0/#&g=1"
                   }
                 ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1779083380671,
+                "title": "V2.1需求（短信通知）",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1779083340147,
+                    "title": "404",
+                    "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
+                    "url": "https://gt2.litao1.eu.org/jjyl2.1/#&g=1"
+                  }
+                ]
               }
             ]
           },
