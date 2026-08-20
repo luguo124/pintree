@@ -538,6 +538,41 @@
                     "url": "https://gt2.litao1.eu.org/jjyl2.2/#&g=1"
                   }
                 ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1787195237152,
+                "title": "V2.2社区食堂 UI 设计图",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1787195281497,
+                    "title": "V2.2居家后台(UI)",
+                    "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
+                    "url": "https://gt2.litao1.eu.org/ui/jjht/#&g=1"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1787195356462,
+                    "title": "V2.2居家App(UI)",
+                    "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
+                    "url": "https://gt2.litao1.eu.org/ui/jjapp/#&g=1"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1787195387222,
+                    "title": "V2.2居家小程序(UI)",
+                    "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
+                    "url": "https://gt2.litao1.eu.org/ui/jjxcx/#&g=1"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1787195418941,
+                    "title": "V2.2居家点餐机(UI)",
+                    "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
+                    "url": "https://gt2.litao1.eu.org/ui/jjdcj/#&g=1"
+                  }
+                ]
               }
             ]
           },
