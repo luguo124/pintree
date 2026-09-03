@@ -573,6 +573,20 @@
                     "url": "https://gt2.litao1.eu.org/ui/jjdcj/#&g=1"
                   }
                 ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1788412889721,
+                "title": "V2.3需求",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1788412802859,
+                    "title": "居家V2.3（报告、政采）",
+                    "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
+                    "url": "https://gt2.litao1.eu.org/jjyl2.3/#&g=1"
+                  }
+                ]
               }
             ]
           },
