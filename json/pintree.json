@@ -244,6 +244,20 @@
                     "url": "https://gt2.litao1.eu.org/aqyy2.5/#&g=1"
                   }
                 ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1795416002265,
+                "title": "V2.6（维保）",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1795415944718,
+                    "title": "安全运营 v2.6（维保）",
+                    "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
+                    "url": "https://gt2.litao1.eu.org/aqyy2.6/#&g=1"
+                  }
+                ]
               }
             ]
           },
