@@ -398,6 +398,20 @@
                     "url": "https://gt.litao1.eu.org/ui/wlwui2/"
                   }
                 ]
+              },
+              {
+                "type": "folder",
+                "addDate": 1795416948890,
+                "title": "物联网 V2.1（大屏）",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1795416898421,
+                    "title": "物联网（大屏）",
+                    "icon": "https://logo.clearbit.com/gt2.litao1.eu.org",
+                    "url": "https://gt2.litao1.eu.org/wlw2.1/"
+                  }
+                ]
               }
             ]
           },
